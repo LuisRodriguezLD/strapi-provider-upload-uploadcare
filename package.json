@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-uploadcare",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Uploadcare provider for strapi upload",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,12 +19,8 @@
   },
   "main": "./lib",
   "dependencies": {
-    "@uploadcare/upload-client": "^1.1.5",
-    "axios": "^0.21.0",
-    "strapi-plugin-upload": "^3.6.9"
-  },
-  "peerDependencies": {
-    "strapi-plugin-upload": "^3.6.0"
+    "@uploadcare/upload-client": "^6.14.1",
+    "axios": "^1.7.2"
   },
   "strapi": {
     "isProvider": true
